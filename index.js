@@ -64,7 +64,11 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('coding genius car services with  node babyyy... DAY 3')
+    res.send('coding genius car services with node ... DAY 3 babyyy')
+})
+
+app.get('/love', (req, res) => {
+    res.send('Samiha')
 })
 
 app.listen(port, () => {
